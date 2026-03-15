@@ -1,6 +1,4 @@
-![GitHub repo size](https://img.shields.io/github/repo-size/YOUR_USERNAME/coding-journey)
-![GitHub last commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/coding-journey)
-![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/coding-journey?style=social)
+
 # c-programming-practice
 "PRACTICING C LANGUAGE ".....
 <br>
