@@ -1,5 +1,4 @@
-
-# c-programming-practice
+# ✨c-programming-practice✨
 "Practicing C Language".....
 <br>
 " Solving Problems On 'LeetCode'..."
@@ -33,9 +32,10 @@ Topics covered:
 12 - Dynamic Memory Allocation
 
 
-Goal:
+🎯Goal:
 Solve 200+ problems in 6 months and Improve problem-solving skills.
 <br>
-Author: R-Vaishnav
+🚩👧🏻Author:
+**R-Vaishnav**
 <br>
-Learning Journey Started : 2026
+📚⚡Learning Journey Started : **2026**
