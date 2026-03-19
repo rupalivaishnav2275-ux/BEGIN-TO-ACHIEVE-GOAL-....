@@ -37,7 +37,7 @@ I am consistently solving problems and improving my **problem-solving skills**.
 
 ##  ─── 🎯 Goal ───
 
-* 🔥 Solve **300 Problems in 6 Months**
+* 🔥 Solve **300 Problems in 18 Months**
 
 * ⚡ Master **C Programming Fundamentals**
 
@@ -47,7 +47,7 @@ I am consistently solving problems and improving my **problem-solving skills**.
 
 ##  ─── 📊 Progress Tracker ───
 
-![Progress](https://img.shields.io/badge/Progress-15%25-blue?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Progress-18%25-blue?style=for-the-badge)
 <br>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:0077FF&height=80&section=header"/>
 
@@ -63,7 +63,7 @@ I am consistently solving problems and improving my **problem-solving skills**.
 | ---------------------- | ------ |
 | Variables & Data Types | ✅     |
 | Input / Output         | ✅     |
-| Operators              | ✅     |
+| Operators              | ⏳      |
 | Conditional Statements | ⏳      |
 | Loops                  | ⏳      |
 | Functions              | ⏳      |
@@ -88,6 +88,16 @@ I am consistently solving problems and improving my **problem-solving skills**.
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black">
   </a>
 </p>
+
+---
+<img src="https://user-images.githubusercontent.com/74038190/212284100-6d0f0d6e-1b0c-4c63-9c69-61e3c6c6a5d3.gif"/>
+
+
+## ─── 📚 Learning Platform ───
+
+<img src="https://yt3.googleusercontent.com/ytc/AL5GRJV..." width="120"/>
+
+- [Apna College] (https://www.youtube.com/@ApnaCollegeOfficial ───
 
 ---
 <img src="https://user-images.githubusercontent.com/74038190/212284100-6d0f0d6e-1b0c-4c63-9c69-61e3c6c6a5d3.gif"/>
@@ -120,8 +130,8 @@ I am consistently solving problems and improving my **problem-solving skills**.
 
 ```bash
   c-programming-practice/
- ├── 01_hello_world.c
- ├── 02_variables.c
+ ├── 01-hello-world.c
+ ├── 02-variables.c
  └── README.md
 ```
 
@@ -142,8 +152,8 @@ I am consistently solving problems and improving my **problem-solving skills**.
 
 ## ─── 🔗 Source Code Links ───
 
-- 🔹 [01_hello_world.c](./01_hello_world.c)
-- 🔹 [02_variables.c](./02_variables.c)
+- 🔹 [01-hello-world.c](./01-hello-world.c)
+- 🔹 [02-variables.c](./02-variables.c)
 
 
 ---
