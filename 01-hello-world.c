@@ -6,6 +6,7 @@
 // Learning Platform: Apna College
 
 // Compiler: GCC (MinGW)
+// Language: C++
 // OS: Windows
 
 // ======================================================
@@ -61,6 +62,10 @@
 // - Wrote duplicate main() function (only one main() allowed)
 // - Forgot to include stdio.h
 
+// ======================================================
+// 🔹 CODE IMPLEMENTATION
+// ======================================================
+
 #include <stdio.h>
 
 int main() {
@@ -71,4 +76,3 @@ int main() {
 
     return 0;
 }
-
