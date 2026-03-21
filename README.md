@@ -66,9 +66,9 @@ I am consistently solving problems and improving my **problem-solving skills**.
 | Input / Output              | ✅     |
 | Instructions                | ✅     |
 | Operators                   | ✅     |
-| Conditional Statements      | ⏳      |
-| Loops                       | ⏳      |
-| Functions                   | ⏳      |
+| Conditional Statements      | ✅     |
+| Loops                       | ✅     |
+| Functions                   | ✅     |
 | Recursion                   | ⏳      |
 | Pointers                    | ⏳      |
 | Arrays                      | ⏳      |
@@ -134,6 +134,9 @@ I am consistently solving problems and improving my **problem-solving skills**.
 ├── 02-variables.c
 ├── 03-instructions.c
 ├── 04-operators.c
+├── 05-conditional-statements.c
+├── 06-loops.c
+├── 07-functions.c
 └── README.md
 ```
 
@@ -143,12 +146,16 @@ I am consistently solving problems and improving my **problem-solving skills**.
 
 ## ─── 🧩 Programs Solved ───
 
-| # | Program              | Status |
-|--|-----------------------|--------|
-| 1 | Hello World          | ✅    |
-| 2 | Variables Program    | ✅     |
-| 3 | Instructions Program | ✅     |
-| 4 | Operators Program    | ✅     |
+| # | Program                          | Status |
+|--|-----------------------------------|--------|
+| 1 | Hello World                       | ✅   |
+| 2 | Variables Program                 | ✅   |  
+| 3 | Instructions Program              | ✅   |
+| 4 | Operators Program                 | ✅   |
+| 5 | Conditional Statements Program    | ✅   |
+| 6 | Loops Program                     | ✅   |
+| 7 | Functions Program                 |  ✅  |
+
 ---
 <img src="https://user-images.githubusercontent.com/74038190/212284100-6d0f0d6e-1b0c-4c63-9c69-61e3c6c6a5d3.gif"/>
 
