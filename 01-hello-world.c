@@ -1,9 +1,9 @@
-// Program: Hello World
-// Description: Prints "Hello World" on the screen
+// Program: Hello World in C
+// Description: Prints "Hello World" on the screen and demonstrates the basic structure of a C program
 // Author: Rupali Vaishnav
 // Date: 2026
 
-// Learning Platform: Apna College
+// Learning Source: Apna College (with my own understanding and notes) 
 
 // Compiler: GCC (MinGW)
 // Language: C++
@@ -28,10 +28,17 @@
 // 🔹 DEFINITIONS
 // ======================================================
 
-// Program: A set of instructions given to a computer to perform a task.
-// main(): Entry point of every C program.
-// printf(): Function used to display output on the screen.
-// Header File: A file that contains predefined functions (e.g., stdio.h).
+// Program: 
+// A set of instructions given to a computer to perform a task.
+
+// main(): 
+// Entry point of every C program, Execution starts from here.
+
+// printf(): 
+// A library function used to display output on the screen.
+
+// Header File: 
+// A file that contains predefined functions (e.g., stdio.h).
 
 // ======================================================
 // 🔹 BASIC STRUCTURE OF C PROGRAM
@@ -48,19 +55,20 @@
 // ======================================================
 
 // Notes:
-// - main() is the entry point
-// - printf() is used for output
-// - stdio.h is required for input/output functions
+// - I understod that every C program starts execution from main()
+// - printf() is used to display output on the screen
+// - Header files like stdio.h are required to use predefined functions
+// - This program helped me understand the basic structure of C programs
 
 // Important Points:
-// - Every C program starts from main()
-// - Semicolon (;) is necessary after each statement
-// - Curly braces {} define the function body
+// - main() is mandatory in every C program
+// - Semicolon (;) is must be used after every statement
+// - Curly braces {} define the scope of a function
 
 // Mistakes:
-// - Forgot semicolon (causes compilation error)
-// - Wrote duplicate main() function (only one main() allowed)
-// - Forgot to include stdio.h
+// - I Forgot semicolon (;) which caused compilation errors
+// - I tried writing multiple main() functions (not allowed)
+// - I missed including stdio.h initially
 
 // ======================================================
 // 🔹 CODE IMPLEMENTATION
@@ -71,8 +79,8 @@
 int main() {
 
     // 🔸 Output Section
-
     printf("Hello World\n");
 
+    // 🔸 Program executed successfully
     return 0;
 }
