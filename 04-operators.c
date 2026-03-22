@@ -3,7 +3,7 @@
 // Author: Rupali Vaishnav
 // Date: 2026
 
-// Learning Platform: Apna College
+// Learning Source: Apna College (with my own notes and understanding)
 // Compiler: GCC (MinGW)
 // OS: Windows
 
@@ -122,17 +122,19 @@
 // ======================================================
 
 // Notes:
-// - Operators are used to perform operations
-// - Logical operators return 0 or 1
+// - I understood that operators are used to perform operations on variables and values
+// - I noticed that logical operators always return 0 (false) or 1 (true)
+// - This topic helped me understand how conditions and calculations work in programs
 
 // Important Points:
-// - Precedence affects calculation
-// - Relational operators return boolean values
+// - Operator precedence affects the final result (e.g., 3 + 2 * 5 = 12)
+// - Relational operators return 0 or 1 based on condition 
+// - Logical operators combine multiple conditions
 
 // Mistakes:
-// - Integer division mistake (5/2 = 2, not 2.5)
-// - Confusing == with =
-// - Wrong logical conditions
+// - I expected 9/2 = 4.5 but got 4 due to integer division
+// - I confused '=' (assignment) with '==' (comparison)
+// - I wrote wrong logical conditions and got unexpected outputs
 
 // ======================================================
 // 🔹 CODE IMPLEMENTATION
@@ -191,7 +193,14 @@ int main() {
     scanf("%f %f %f", &x, &y, &z);
 
     float avg = (x + y + z) / 3;
-    printf("Average = %f\n", avg);
+    printf("Average = %.2f\n", avg);
 
+    // Custom Example: Check if number is positive or negative
+    if (a > 0) {
+        printf(''a is Positive\n");
+    } else {
+        printf("a is Negative\n")
+    }
+    
     return 0;
 }
