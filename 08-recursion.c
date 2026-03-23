@@ -4,7 +4,7 @@
 // Author: Rupali Vaishnav
 // Date: 2026
 
-// Learning Source: Apna College (with my own notes and practice)
+// Learning Source: Apna College (with my own notes and understanding)
 
 // Compiler: GCC (MinGW)
 // OS: Windows
@@ -25,57 +25,73 @@
 // ======================================================
 
 // Recursion:
-// A function that calls itself to solve a smaller part of a problem.
+// A function that calls itself to solve a smaller instance of the same problem.
 
 // ======================================================
 // 🔹 KEY CONCEPTS
 // ======================================================
 
 // Base Case:
-// Condition where recursion stops
+// Condition where recursion stops (prevents infinite calls)
 
 // Recursive Case:
-// Function calls itself with smaller input
+// Function calls itself with a smaller input
+
+// Call Stack:
+// Stores function calls in memory (LIFO order)
 
 // ======================================================
 // 🔹 NORMAL FUNCTION vs RECURSION
 // ======================================================
 
-// Normal Function Call:
-// Execution happens step-by-step using loops
+// Normal Function (Iterative Approach):
+// Uses loops (for, while)
+// Faster and memory-efficient
 
-// Example:
-// for loop → iterative approach
-
-// Recursion Function Call:
-// Function calls itself until base case is reached
-
-// Flow:
-// function(n) → function(n-1) → function(n-2) → ... → base case
+// Recursion:
+// Function calls itself repeatedly
+// More readable for complex problems
+// Uses extra memory due to function call stack
 
 // ======================================================
 // 🔹 DRY RUN EXAMPLE (SUM OF DIGITS: 123)
 // ======================================================
 
-// sumDigits(123)
-// → 3 + sumDigits(12)
-// → 3 + (2 + sumDigits(1))
-// → 3 + 2 + (1 + sumDigits(0))
+// sumOfDigits(123)
+// → 3 + sumOfDigits(12)
+// → 3 + (2 + sumOfDigits(1))
+// → 3 + 2 + (1 + sumOfDigits(0))
 // → 3 + 2 + 1 + 0 = 6
 
 // ======================================================
-// 🔹 LEARNINGS & COMMON MISTAKES
+// 🔹 LEARNINGS, INSIGHTS & COMMON MISTAKES
 // ======================================================
 
-// NOTES:
-// - Recursion reduces code size but increases call stack usage
-// - Every recursive function must have a base case
-// - Useful for problems like factorial, Fibonacci, trees, etc.
+// Notes:
+// - Recursion helps solve problems by breaking them into smaller subproblems
+// - It makes code shorter and more elegant compared to loops in some cases
+// - I understood how function calls are stored in stack memory
+// - I learned that every recursive solution can also be solved iteratively
+// - Recursion improves problem-solving thinking (divide & conquer approach)
+// - It is widely used in trees, graphs, backtracking, and dynamic programming
 
-// MISTAKES:
-// - Forgetting base case → infinite recursion
-// - Wrong recursive step → incorrect result
-// - Stack overflow for large inputs
+// Important Points:
+// - Every recursive function MUST have a base case
+// - Base case should be reachable (otherwise infinite recursion)
+// - Recursive calls should move toward the base case
+// - Each function call gets its own memory (stack frame)
+// - Recursion may cause stack overflow for large inputs
+// - Use recursion when problem can be divided into similar subproblems
+// - Prefer iteration when performance is critical
+
+// Mistakes:
+// - Forgetting base case → infinite recursion (program crash)
+// - Incorrect base case → wrong output
+// - Recursive call not reducing problem size
+// - Not understanding stack flow → confusion in debugging
+// - Using recursion where loop is simpler
+// - Not handling edge cases (like negative numbers)
+// - Large recursion depth → stack overflow
 
 // ======================================================
 // 🔹 FUNCTION DECLARATIONS
@@ -103,6 +119,8 @@ int main() {
     printf("\nEnter a number: ");
     scanf("%d", &number);
 
+    if (number < 0) number = -number; // handle negative
+
     int sum = sumOfDigits(number);
     printf("Sum of digits = %d\n", sum);
 
@@ -114,8 +132,12 @@ int main() {
     printf("\nEnter base and exponent: ");
     scanf("%d %d", &base, &exponent);
 
-    long long result = power(base, exponent);
-    printf("Result = %lld\n", result);
+    if (exponent < 0) {
+        printf("Negative exponent not supported in this version\n");
+    } else {
+        long long result = power(base, exponent);
+        printf("Result = %lld\n", result);
+    }
 
     return 0;
 }
