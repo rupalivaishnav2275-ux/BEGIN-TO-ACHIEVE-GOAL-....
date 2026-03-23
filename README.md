@@ -47,7 +47,7 @@ I am consistently solving problems and improving my **problem-solving skills**.
 
 ##  ─── 📊 Progress Tracker ───
 
-![Progress](https://img.shields.io/badge/Progress-65%25-blue?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Progress-70%25-blue?style=for-the-badge)
 <br>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:0077FF&height=80&section=header"/>
 
