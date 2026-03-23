@@ -1,6 +1,5 @@
 // Program: Pointers in C
-// Description: Demonstrates pointers, syntax, declaration, pointer to pointer,
-//              function calls (call by value & reference), and practice problems.
+// Description: Demonstrates pointers, syntax, declaration, pointer to pointer, function calls (call by value & reference), and practice questions.
 // Author: Rupali Vaishnav
 // Date: 2026
 
@@ -81,7 +80,7 @@
 // 🔹 LEARNINGS, INSIGHTS & COMMON MISTAKES
 // ======================================================
 
-// LEARNINGS / INSIGHTS:
+// Notes:
 // - Pointers store memory addresses, not actual values
 // - Using pointers, we can directly modify variables (efficient memory usage)
 // - I understood how arrays and pointers are closely related
@@ -89,7 +88,7 @@
 // - Pointer to pointer helps in multi-level memory access
 // - Pointers are widely used in data structures (linked list, trees)
 
-// IMPORTANT POINTS:
+// Important Points:
 // - Always initialize pointers before use
 // - Use correct data type for pointer
 // - Dereferencing uninitialized pointer causes crash
@@ -98,7 +97,7 @@
 // - Use %p to print address (best practice)
 // - Double pointers (**ptr) are useful in dynamic memory allocation
 
-// MISTAKES:
+// Mistakes:
 // - Using uninitialized pointers (wild pointers)
 // - Dereferencing NULL pointer
 // - Confusing * (value) and & (address)
