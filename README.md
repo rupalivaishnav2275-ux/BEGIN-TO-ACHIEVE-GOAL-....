@@ -100,8 +100,8 @@ Each file includes:
 ## ─── 🧠 Practice Platform ───
 
 <p 
-  <a href="https://leetcode.com/">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black">
+  <a href="https://hackerrank.com/">
+    <img src="https://img.shields.io/badge/HackerRank-FFA116?style=for-the-badge&logo=leetcode&logoColor=black">
   </a>
 </p>
 
